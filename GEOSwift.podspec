@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
     tag: s.version
   }
   s.source_files = 'GEOSwift/*.{swift,h}'
-  s.dependency 'geos', '3.7.0'
+  s.dependency 'geos', :git => 'git@github.com:GEOSwift/geos.git', :commit => 'c04f72d7efd1f12d9e986bea746314d87b7787ca'
 end
