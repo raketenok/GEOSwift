@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'GEOSwift'
-  s.version = '3.0.2'
+  s.version = '3.0.4'
   s.swift_version = '4.2'
   s.cocoapods_version = '>= 1.4.0'
   s.summary = 'The Swift Geographic Engine.'
@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
     tag: s.version
   }
   s.source_files = 'GEOSwift/*.{swift,h}'
-  s.dependency 'geos', :git => 'git@github.com:GEOSwift/geos.git', :commit => 'c04f72d7efd1f12d9e986bea746314d87b7787ca'
+  s.dependency 'geos'
 end
